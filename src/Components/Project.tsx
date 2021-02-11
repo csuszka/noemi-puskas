@@ -8,4 +8,4 @@ function Project() {
   );
 }
 
-export default MenuElement;
+export default Project;
