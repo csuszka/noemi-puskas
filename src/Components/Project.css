@@ -1,0 +1,28 @@
+.project{
+  height: 140px;
+  background: whitesmoke;
+}
+
+.project-thumbnail{
+  width: 90px;
+  height: 90px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.project-view{
+  width: 90px;
+  height: 90px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.project-code{
+  width: 90px;
+  height: 90px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
