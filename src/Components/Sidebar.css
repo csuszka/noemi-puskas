@@ -1,0 +1,5 @@
+.sidebar{
+  width: 300px;
+  background: linear-gradient(111.81deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%);
+  backdrop-filter: blur(50px);
+}

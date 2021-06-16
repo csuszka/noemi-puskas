@@ -1,11 +1,15 @@
 .project{
   height: 140px;
-  background: whitesmoke;
+  background: linear-gradient(273.67deg, #FFFFFF 0%, rgba(255, 255, 255, 0.8) 100%, rgba(255, 255, 255, 0.8) 100%);
+  box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
 }
 
 .project-thumbnail{
   width: 90px;
-  height: 90px; 
+  height: 90px;
+  border: 0;
+  border-radius: 10px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -14,6 +18,9 @@
 .project-view{
   width: 90px;
   height: 90px; 
+  border: 0;
+  border-radius: 10px;
+  background: inherit;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -22,6 +29,8 @@
 .project-code{
   width: 90px;
   height: 90px; 
+  border: 0;
+  border-radius: 10px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
