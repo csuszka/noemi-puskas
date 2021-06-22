@@ -3,6 +3,9 @@
   background: linear-gradient(273.67deg, #FFFFFF 0%, rgba(255, 255, 255, 0.8) 100%, rgba(255, 255, 255, 0.8) 100%);
   box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .project-thumbnail{

@@ -37,9 +37,9 @@ const Project = ({ projectThumbnail, projectViewLink, projectCodeLink, projectTe
         />
 
         <a
-          href='https://nezdanyu.tumblr.com/tagged/tita'
-          target='_blank'
-        >
+          href="https://nezdanyu.tumblr.com/tagged/tita"
+          target="_blank"
+          rel="noreferrer">
           <div
             className="project-view"
             style={

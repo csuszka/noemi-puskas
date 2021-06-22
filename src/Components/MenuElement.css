@@ -1,0 +1,8 @@
+.menu-element{
+
+}
+
+.menu-element > a:hover, a:visited, a:link, a:active {
+  color: #6E93DA;
+  text-decoration: none;
+}
