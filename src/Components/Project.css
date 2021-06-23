@@ -1,12 +1,25 @@
 .project{
-  height: 140px;
+  min-height: 110px;
+  padding: 20px;
+  margin: 40px;
+
   background: linear-gradient(273.67deg, #FFFFFF 0%, rgba(255, 255, 255, 0.8) 100%, rgba(255, 255, 255, 0.8) 100%);
   box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.project-left{
+  display: flex;
+  }
+
+.project-right{
+  display: flex;
+}
+
 
 .project-thumbnail{
   width: 90px;
