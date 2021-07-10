@@ -14,7 +14,7 @@ function MenuElement ({ menuURL, menuImageURL, menuImageAlt, MenuText }: Props) 
     <Link to={menuURL ? menuURL : '/'}>
       <div className="menu-element">
         <p>
-          <img src={menuImageURL ? menuImageURL : defaultThumbnail} alt={menuImageAlt ? menuImageAlt : "Menu"} /> {MenuText}
+          <h2><img src={menuImageURL ? menuImageURL : defaultThumbnail} alt={menuImageAlt ? menuImageAlt : "Menu"} /> {MenuText}</h2>
         </p>
       </div>
     </Link>

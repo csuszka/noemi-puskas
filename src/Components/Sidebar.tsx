@@ -11,16 +11,16 @@ import menuProfilePicture from '../img/PN.jpg';
 function Sidebar () {
   return (
     <div className="sidebar">
-      <img className="profile-picture" src={menuProfilePicture} alt="Noémi's face"></img>
       <div className="sidebar-name">
-        <p>Noémi Puskás</p>
+        <img className="profile-picture" src={menuProfilePicture} alt="Noémi's face"></img>
+        <h2>Noémi Puskás</h2>
         <p>web developer</p>
       </div>
       <div className="sidebar-menu">
-      <MenuElement menuURL='/projects' menuImageURL={menuImageProjects} menuImageAlt='Projects' MenuText='Projects' />
-      <MenuElement menuURL='/experiments' menuImageURL={menuImageExperiments} menuImageAlt='Experiments' MenuText='Experiments' />
-      <MenuElement menuURL='/about' menuImageURL={menuImageAbout} menuImageAlt='About' MenuText='About' />
-      <MenuElement menuURL='/contact' menuImageURL={menuImageContact} menuImageAlt='Contact' MenuText='Contact' />
+        <MenuElement menuURL='/projects' menuImageURL={menuImageProjects} menuImageAlt='Projects' MenuText='Projects' />
+        <MenuElement menuURL='/experiments' menuImageURL={menuImageExperiments} menuImageAlt='Experiments' MenuText='Experiments' />
+        <MenuElement menuURL='/about' menuImageURL={menuImageAbout} menuImageAlt='About' MenuText='About' />
+        <MenuElement menuURL='/contact' menuImageURL={menuImageContact} menuImageAlt='Contact' MenuText='Contact' />
       </div>
     </div>
 

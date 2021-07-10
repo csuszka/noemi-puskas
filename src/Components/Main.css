@@ -2,8 +2,11 @@
   width: 1275px;
   height: 800px;
   margin: auto;
+  border-radius: 20px;
+
   display: flex;
   flex-direction: row;
+  
   background: linear-gradient(111.81deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%);
   backdrop-filter: blur(50px);
   }
